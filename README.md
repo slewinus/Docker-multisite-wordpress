@@ -1,6 +1,7 @@
 # Conf docker multisite for wordpress
 
 ## 1- Install docker 
+Install the additionnal package
 ```
 sudo apt update
 sudo apt install \
