@@ -49,6 +49,10 @@ sudo docker-compose up -d
 ##  8- Navigate to your wordpress installation
 Go to `http://localhost:8080` or `http://youripaddress:8080` and you will have access to the Wordpress's configuration pannel
 
+## 9- Shutdown the wordpress
+```docker stop [my_container]```
+
+
 
 
 
