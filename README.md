@@ -35,11 +35,25 @@ sudo curl -L https://github.com/docker/compose/releases/download/1.21.2/docker-c
 sudo chmod +x /usr/local/bin/docker-compose
 ```
 
-## 3- Install Mariadb
+## 3- Install&Configure Mariadb
 ```
 sudo apt install mariadb-server
 ```
-
+```
+sudo mariadb
+```
+Create a new root user (change the name et the paswd)
+```
+MariaDB [(none)]> GRANT ALL ON *.* TO 'admin'@'localhost' IDENTIFIED BY 'password' WITH GRANT OPTION;
+```
+Flush
+```
+MariaDB [(none)]> FLUSH PRIVILEGES;
+```
+Quit
+```
+MariaDB [(none)]> exit
+```
 ## 4- Configure Portainer
 ```
 sudo docker volume create portainer_data
