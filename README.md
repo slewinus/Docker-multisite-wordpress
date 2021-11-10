@@ -50,7 +50,18 @@ sudo docker-compose up -d
 Go to `http://localhost:8080` or `http://youripaddress:8080` and you will have access to the Wordpress's configuration pannel
 
 ## 9- Shutdown the wordpress
-```docker stop [my_container]```
+```docker stop [my_container]
+```
+
+## 10- Configure reverse proxy 
+
+```
+cd ..
+mkdir reverse_proxy
+cd reverse_proxy
+```
+
+
 
 
 
