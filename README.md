@@ -36,7 +36,7 @@ cd /srv/wordpress/
 
 ## 6- Create yaml file
 ```
-nano docker-compose.yaml
+nano docker-compose.yml
 ```
 Then copy the docker-compose-example (make sure to change the db data)
 
@@ -61,6 +61,11 @@ cd ..
 mkdir reverse_proxy
 cd reverse_proxy
 ```
+create a new docker-compose.yml and then copy the `docker-compose-nginx-example`.
+
+## 11- Config file
+
+
 
 
 
